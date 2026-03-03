@@ -11,14 +11,45 @@ An autonomous, agentic developer onboarding platform built with **Next.js 15**, 
 - **React Markdown** for rich message rendering
 - **Lucide React** for icons
 
-## Getting Started
+## Prerequisites
 
-```bash
-npm install
-npm run dev
-```
+- [Node.js](https://nodejs.org/) **v18 or later** (v20 LTS recommended)
+- [npm](https://www.npmjs.com/) v9 or later (comes bundled with Node.js)
+- [Git](https://git-scm.com/)
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+## Running Locally
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/peacecoder123/Syrusprotype1.git
+   cd Syrusprotype1
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in your browser**
+
+   Navigate to [http://localhost:3000](http://localhost:3000).
+
+## Other Useful Commands
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start the dev server with hot-reload |
+| `npm run build` | Create an optimized production build |
+| `npm run start` | Serve the production build locally |
+| `npm run lint` | Run ESLint across the project |
 
 ## Features
 
